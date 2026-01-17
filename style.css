@@ -59,6 +59,14 @@ nav {
 }
 
 nav a {
+    width: 87;
+    height: 43;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    opacity: 1;
+    border-radius: 6px;
     color: black;
 }
 
@@ -76,8 +84,40 @@ nav a {
     justify-content: space-between;
     height: 40px;
     align-items: center;
+    width: 70%;
 }
 
 a.icon {
     display: none;
+}
+
+.logacclogin {
+    color: #5BB5A2;
+    width: 43;
+    height: 18;
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -3%;
+
+}
+
+.logaccopenaccount {
+    background: #5BB5A2;
+    height: 39;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 6px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
 }
