@@ -88,4 +88,9 @@
         flex-direction: column;
     }
 
+    .bankingvisa {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
