@@ -129,7 +129,8 @@
     .oneaccount,
     .intantturpis,
     .sendpaypal,
-    .instantwide {
+    .instantwide,
+    .laptopplus {
         display: flex;
         flex-direction: column;
         width: 358px;
@@ -137,22 +138,35 @@
         justify-content: center;
     }
 
-
+    .loremicon {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        gap: 15px;
+    }
 
     .iconturpise {
         width: 100%;
     }
 
     .iconninehundred,
-    .sendlorem p {
+    .sendlorem p,
+    .loremicon p {
         width: 358px;
     }
 
-    .oneaccount img {
+    .oneaccount img,
+    .laptopplus img {
         display: flex;
         flex-direction: column;
         align-self: center;
         width: 70%;
+    }
+
+    .newfourhundred {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }

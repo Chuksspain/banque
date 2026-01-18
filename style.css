@@ -423,7 +423,11 @@ a.icon {
 .savingplus {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+}
+
+.savingplus p {
+    margin: 0;
 }
 
 .loremicon {
@@ -442,4 +446,36 @@ a.icon {
 
 .allicon span {
     color: #5BB5A2;
+}
+
+.laptopplus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.laptopfourhundred {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.laptopfourhundred img {
+    width: 170px;
+}
+
+.newfourhundred {
+    display: flex;
+    flex-direction: column;
+}
+
+.newfourhundred span {
+    font-weight: 600;
+}
+
+.newfourhundred p {
+    font-size: 14;
+    color: grey;
 }
