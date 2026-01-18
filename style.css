@@ -36,7 +36,15 @@ footer {
     padding-left: 190px;
     padding-right: 190px;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 50px;
+}
+
+.indexcentertwo {
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #E8F2EE;
 }
 
 .logo {
@@ -151,10 +159,62 @@ a.icon {
     letter-spacing: -3%;
 }
 
+.onebanking {
+    width: 70%;
+    height: 220;
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 55px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+}
+
+.onebankingtwo {
+    width: 90%;
+    height: 220;
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+}
+
+.onebankingthree {
+    width: 45%;
+    height: 220;
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+}
+
+.loremicon p {
+    width: 45%;
+    opacity: 1;
+    font-size: 15.5px;
+    font-weight: 500;
+    font-style: Medium;
+    /* font-size: 48px; */
+    line-height: 160%;
+    letter-spacing: -3%;
+}
+
 .bankingcards p {
     font-weight: 500;
     font-style: Medium;
     font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0%;
+}
+
+.sendlorem p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
     line-height: 170%;
     letter-spacing: 0%;
 }
@@ -232,5 +292,154 @@ a.icon {
     padding-left: 24px;
     gap: 10px;
     opacity: 1;
+    color: #5BB5A2;
+}
+
+.oneaccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.oneaccount img {
+    width: 35%;
+    height: 70%;
+}
+
+.oneturpis {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 55%;
+}
+
+.intantturpis {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.iconturpise {
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    /* height: 300px; */
+    gap: 16px;
+    opacity: 1;
+    border-radius: 16px;
+    border-width: 2px;
+    padding: 22px;
+    border: 2px solid #E8E8E8
+}
+
+.iconturpise span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -3%;
+}
+
+.iconturpise p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.sendpaypal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sendlorem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.iconlorem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.iconipsum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.icontwohundred {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+}
+
+.iconninehundred {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 400;
+    height: 83; */
+    /* gap: 16px; */
+    opacity: 1;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    align-items: center;
+}
+
+.iconmacbook {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.amacbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.amacbook span {
+    font-weight: 600;
+}
+
+.amacbook p {
+    margin: 0;
+    color: #926060;
+}
+
+.savingplus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loremicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allicon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.allicon span {
     color: #5BB5A2;
 }
