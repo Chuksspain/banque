@@ -131,7 +131,9 @@
     .intantturpis,
     .sendpaypal,
     .instantwide,
-    .laptopplus {
+    .laptopplus,
+    .notificationavailable,
+    .toolswide {
         display: flex;
         flex-direction: column;
         width: 358px;
@@ -151,10 +153,23 @@
     }
 
     .iconninehundred,
+    .iconninehundredtwo,
     .sendlorem p,
     .loremicon p,
-    .notificationavailable p {
+    .notificationavailable p,
+    .notificationicon p {
         width: 358px;
+    }
+
+    .iconninehundredtwo p {
+        width: 90%;
+    }
+
+    .iconloremtwo {
+        display: flex;
+        flex-direction: column;
+        /* justify-self: start; */
+        width: 100%;
     }
 
     .oneaccount img,
@@ -170,5 +185,15 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .webcoin,
+    .webflowpay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+
 
 }

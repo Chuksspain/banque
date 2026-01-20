@@ -397,6 +397,15 @@ a.icon {
     gap: 15px;
 }
 
+.iconloremtwo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self: center;
+    justify-self: center;
+    width: 35%;
+}
+
 .iconipsum {
     display: flex;
     flex-direction: row;
@@ -428,6 +437,33 @@ a.icon {
     align-items: center;
 }
 
+.iconninehundredtwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 400;
+    height: 83; */
+    /* gap: 16px; */
+    opacity: 1;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background: #f1f0f0;
+    align-items: center;
+}
+
+.amacbooktwo p {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+}
+
+.amacbooktwo span {
+    font-weight: 600;
+}
+
 .iconmacbook {
     display: flex;
     flex-direction: row;
@@ -435,6 +471,13 @@ a.icon {
 }
 
 .amacbook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.amacbooktwo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -523,4 +566,28 @@ a.icon {
 
 .notificationicon p {
     margin: 0;
+}
+
+.webflowwide {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.webflowpay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.webcoin {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.toolswide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
