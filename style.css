@@ -278,6 +278,12 @@ a.icon {
     align-items: center;
 }
 
+.ccardicontwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .ccardicon span {
     font-weight: 500;
     font-style: Medium;
@@ -290,6 +296,23 @@ a.icon {
     padding-right: 18px;
     padding-bottom: 16px;
     padding-left: 24px;
+    gap: 10px;
+    opacity: 1;
+    color: #5BB5A2;
+}
+
+.ccardicontwo span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -3%;
+    width: 166;
+    height: 50;
+    /* padding-top: 16px;
+    padding-right: 18px;
+    padding-bottom: 16px;
+    padding-left: 24px; */
     gap: 10px;
     opacity: 1;
     color: #5BB5A2;
@@ -355,6 +378,13 @@ a.icon {
 }
 
 .sendlorem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.notificationicon {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -478,4 +508,19 @@ a.icon {
 .newfourhundred p {
     font-size: 14;
     color: grey;
+}
+
+.notificationavailable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notificationicon {
+    display: flex;
+    flex-direction: column;
+}
+
+.notificationicon p {
+    margin: 0;
 }
