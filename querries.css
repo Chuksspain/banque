@@ -13,7 +13,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 0 0 50px 0;
+        padding: 50px 0 50px 0;
     }
 
 
@@ -75,11 +75,11 @@
 
 
     a.icon {
-        background: black;
+        /* background: black; */
         display: block;
         position: fixed;
-        color: #fff;
-        font-size: 27px;
+        color: black;
+        font-size: 24px;
         text-decoration: none;
         text-align: center;
         right: 20px;
