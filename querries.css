@@ -133,7 +133,8 @@
     .instantwide,
     .laptopplus,
     .notificationavailable,
-    .toolswide {
+    .toolswide,
+    .accountcards {
         display: flex;
         flex-direction: column;
         width: 358px;
@@ -157,7 +158,8 @@
     .sendlorem p,
     .loremicon p,
     .notificationavailable p,
-    .notificationicon p {
+    .notificationicon p,
+    .accountcards p {
         width: 358px;
     }
 
@@ -173,7 +175,8 @@
     }
 
     .oneaccount img,
-    .laptopplus img {
+    .laptopplus img,
+    .accountcards img {
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -187,7 +190,8 @@
     }
 
     .webcoin,
-    .webflowpay {
+    .webflowpay,
+    .opancardstwo {
         display: flex;
         flex-direction: column;
         align-items: center;
