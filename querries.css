@@ -131,15 +131,32 @@
     .intantturpis,
     .sendpaypal,
     .instantwide,
+    .instantwidetwo,
     .laptopplus,
     .notificationavailable,
     .toolswide,
-    .accountcards {
+    .accountcards,
+    .iconsales {
         display: flex;
         flex-direction: column;
         width: 358px;
         gap: 20px;
         justify-content: center;
+    }
+
+    .onesevenhundred {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        gap: 20px;
+        /* justify-content: center; */
+        padding: 20px 0 0 10px;
+        height: fit-content;
+        border-radius: 0;
+    }
+
+    .iconfisherfour {
+        margin: 0;
     }
 
     .loremicon {
@@ -176,7 +193,8 @@
 
     .oneaccount img,
     .laptopplus img,
-    .accountcards img {
+    .accountcards img,
+    .onesevenhundred img {
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -198,6 +216,10 @@
         gap: 25px;
     }
 
-
+    .testimonialusers {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 
 }

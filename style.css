@@ -104,12 +104,17 @@ a.icon {
     width: 43;
     height: 18;
     opacity: 1;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
     font-weight: 500;
     font-style: Medium;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 100%;
     letter-spacing: -3%;
-
+    border: 0;
+    border-radius: 6px;
 }
 
 .logaccopenaccount {
@@ -122,6 +127,7 @@ a.icon {
     gap: 10px;
     opacity: 1;
     border-radius: 6px;
+    border: 0;
     font-weight: 500;
     font-style: Medium;
     font-size: 15px;
@@ -148,6 +154,12 @@ a.icon {
     width: 50%;
 }
 
+.bankingcardstwo {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
 .bhere {
     width: 80%;
     height: 220;
@@ -157,6 +169,18 @@ a.icon {
     font-size: 70px;
     line-height: 110.00000000000001%;
     letter-spacing: -3%;
+}
+
+.bheretwo {
+    width: 95%;
+    /* height: 220; */
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
 }
 
 .onebanking {
@@ -223,6 +247,16 @@ a.icon {
     letter-spacing: 0%;
 }
 
+.bankingcardstwo p {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 150%;
+}
+
 .sendlorem p {
     font-weight: 500;
     font-style: Medium;
@@ -237,6 +271,13 @@ a.icon {
     gap: 15px;
 }
 
+.instantbankingtwo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 120%;
+}
+
 .instantwide {
     display: flex;
     flex-direction: row;
@@ -245,7 +286,22 @@ a.icon {
     justify-content: space-between;
 }
 
+.instantwidetwo {
+    display: flex;
+    flex-direction: row;
+    /* gap: 80px; */
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
 .iconinstant {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.iconinstanttwo {
     display: flex;
     flex-direction: row;
     gap: 7px;
@@ -255,6 +311,15 @@ a.icon {
     font-weight: 500;
     font-style: Medium;
     font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0%;
+}
+
+.iconinstanttwo span {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
     line-height: 180%;
     letter-spacing: 0%;
 }
@@ -676,4 +741,179 @@ a.icon {
     gap: 50px;
     width: 400px;
     justify-self: center;
+}
+
+.testimonialsaasistant {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonialusers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconusers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.ratedusers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.ratedusers p {
+    margin-bottom: 10px;
+}
+
+.ratedusersfigure {
+    color: #89cbbd;
+}
+
+.iconassistant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.iconsales {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.iconfisher {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 348px;
+    height: 330px;
+    gap: 15px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 28px;
+    border-width: 2px;
+    border: 2px solid #E8E8E8
+}
+
+.iconfisherfive {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 348px;
+    height: 360px;
+    gap: 15px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 28px;
+    border-width: 2px;
+    border: 2px solid #E8E8E8
+}
+
+.iconfisherfour {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -95px;
+    width: 348px;
+    height: 330px;
+    gap: 15px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 28px;
+    border-width: 2px;
+    border: 2px solid #E8E8E8
+}
+
+.iconfishertwo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 348px;
+    height: 430px;
+    gap: 15px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 28px;
+    border-width: 2px;
+    border: 2px solid #E8E8E8
+}
+
+.iconfisherspan {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.iconfisherp {
+    line-height: 160%;
+    margin: 0;
+    font-size: 15px;
+}
+
+.codyassistant {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.codyassistant p {
+    color: darkgray;
+    font-size: 14px;
+    margin: 0;
+}
+
+.onesevenhundred {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 1200;*/
+    height: 500px;
+
+    margin-top: 100px;
+    padding-top: 96px;
+    padding-right: 76px;
+    /* padding-bottom: 96px; */
+    padding-left: 76px;
+    /* gap: 138px; */
+    opacity: 1;
+    border-radius: 20px;
+    background: #5BB5A2;
+}
+
+.onesevenhundred img {
+    width: 50%;
+    /* width: 380; */
+    /* height: 800px; */
+    opacity: 1;
+    border-radius: 35px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-width: 10px;
+    /* margin-top: 100px; */
+}
+
+.oneplay {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.oneappbank {
+    display: flex;
+    flex-direction: column;
+}
+
+.onesevenhundredappleplay {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 60%;
+    margin-top: 15px;
 }
