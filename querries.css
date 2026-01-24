@@ -136,7 +136,9 @@
     .notificationavailable,
     .toolswide,
     .accountcards,
-    .iconsales {
+    .iconsales,
+    .needplusicon,
+    .howplusicon {
         display: flex;
         flex-direction: column;
         width: 358px;

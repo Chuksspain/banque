@@ -383,6 +383,19 @@ a.icon {
     align-items: center;
 }
 
+.ccardiconfour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.ccardiconfourspan {
+    font-size: 20px;
+    color: #5BB5A2;
+}
+
 .ccardiconthree {
     display: flex;
     flex-direction: row;
@@ -916,4 +929,88 @@ a.icon {
     gap: 15px;
     width: 60%;
     margin-top: 15px;
+}
+
+.needplusicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.needrightarrowicon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+}
+
+.needrightarrowiconspan {
+    width: 80%;
+    height: 220;
+    opacity: 1;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 50px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+}
+
+.phoneiconhotline {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.numberhotline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: center;
+}
+
+.numberhotline span {
+    font-size: 16px;
+    width: 200%;
+}
+
+.numberhotline p {
+    font-size: 14px;
+    width: 200%;
+    color: darkgray;
+    margin: 0;
+}
+
+.howplusicon {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.doplusicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    padding: 20px 0 20px 0;
+}
+
+.doplusiconleast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+}
+
+.howpartent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 90%;
+}
+
+.howpartent p {
+    color: darkgray;
+    font-size: 14px;
+    line-height: 160%;
+    margin: 0;
 }
