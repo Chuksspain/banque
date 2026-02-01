@@ -138,7 +138,8 @@
     .accountcards,
     .iconsales,
     .needplusicon,
-    .howplusicon {
+    .howplusicon,
+    .blogimagetechnology {
         display: flex;
         flex-direction: column;
         width: 358px;
@@ -196,22 +197,34 @@
     .oneaccount img,
     .laptopplus img,
     .accountcards img,
-    .onesevenhundred img {
+    .onesevenhundred img,
+    .blogimagetechnology img {
         display: flex;
         flex-direction: column;
         align-self: center;
         width: 70%;
     }
 
-    .newfourhundred {
+    .newfourhundred,
+    .aboutsport {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    footer {
+        margin-top: -50px;
+    }
+
+
+
     .webcoin,
     .webflowpay,
-    .opancardstwo {
+    .opancardstwo,
+    .banqueemedia,
+    .aboutgramwrap,
+    .copyrightchutz,
+    .copyrightwebflow {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -224,4 +237,8 @@
         gap: 15px;
     }
 
+    .aboutsporthead {
+        width: 120%;
+        text-align: center;
+    }
 }

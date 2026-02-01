@@ -26,8 +26,10 @@ header {
 } */
 
 footer {
+    padding-top: 100px;
     padding-left: 120px;
     padding-right: 120px;
+    padding-bottom: 50px;
     font-family: "poppins", sans-serif;
     font-style: normal;
 }
@@ -1013,4 +1015,144 @@ a.icon {
     font-size: 14px;
     line-height: 160%;
     margin: 0;
+}
+
+.blogtechnology {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blogrightarrowicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blogimagetechnology {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.imagetechnolgy {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.imagetechnolgy img {
+    width: 290px;
+    height: 290px;
+    border-radius: 12px;
+}
+
+.howtechnology {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.howtechnology p {
+    font-size: 14px;
+    margin: 0;
+    /* width: 35%; */
+    line-height: 160%;
+}
+
+.howtechnology span {
+    font-size: 22px;
+    font-weight: 550;
+    margin: 0;
+    /* width: 35%; */
+    line-height: 160%;
+}
+
+.protech {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.protech span {
+    width: 69;
+    height: 31;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 4px;
+    background: #F8F8F8;
+}
+
+.banqueechutz {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banqueemedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutgramwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.aboutsport {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutsporthead {
+    margin-bottom: 15px;
+    font-weight: 555;
+}
+
+.aboutsportbody {
+    font-size: 14px;
+    color: darkgray;
+}
+
+.copyrightchutz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    border-top: 1px solid rgb(217, 215, 215);
+    padding-top: 20px;
+}
+
+.copyrightwebflow {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyrightwebflowtwo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.copyrightwebflow p {
+    margin: 0 4px 0 4px;
+    font-size: 13px;
+}
+
+.copyrightwebflowtwo p {
+    margin: 0 4px 0 4px;
+    font-size: 13px;
+    color: darkgray;
+}
+
+.copyrightwebflowspecial {
+    color: #5BB5A2;
 }
