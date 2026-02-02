@@ -49,6 +49,15 @@ footer {
     background: #E8F2EE;
 }
 
+.indexcenterthree {
+    /* padding-left: 190px;
+    padding-right: 190px;
+    /* padding-top: 50px; */
+    padding-top: 100px;
+    margin-top: 20px;
+    background: #E8F2EE;
+}
+
 .logo {
     font-size: 25px;
     font-weight: 600;
@@ -219,6 +228,18 @@ a.icon {
     text-align: center;
 }
 
+.onebankingfive {
+    width: 90%;
+    height: 220;
+    opacity: 1;
+    font-weight: 550;
+    font-style: Medium;
+    font-size: 50px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -3%;
+    text-align: center;
+}
+
 .onebankingthree {
     width: 45%;
     height: 220;
@@ -328,6 +349,12 @@ a.icon {
 
 .opancards {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.opancardsthree {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -536,6 +563,19 @@ a.icon {
     width: 50%;
 }
 
+.notificationiconfour {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    align-self: center;
+}
+
+.notificationiconfour p {
+    line-height: 180%;
+    margin: 0;
+}
+
 .iconlorem {
     display: flex;
     flex-direction: column;
@@ -717,6 +757,27 @@ a.icon {
     gap: 25px;
 }
 
+.notificationiconthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 600px;
+    justify-self: center;
+}
+
+.notificationiconfive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 5px;
+    width: 600px;
+    justify-self: center;
+}
+
 .notificationicon p {
     margin: 0;
 }
@@ -724,6 +785,30 @@ a.icon {
 .notificationicontwo p {
     margin: 0;
     text-align: center;
+}
+
+.notificationiconthree p {
+    margin: 0;
+    text-align: center;
+    line-height: 200%;
+    font-weight: 500;
+    width: 70%;
+}
+
+.notificationiconfive p {
+    margin: 0;
+    text-align: center;
+    line-height: 200%;
+    font-weight: 500;
+    width: 70%;
+}
+
+.notificationiconfive span {
+    margin: 0;
+    text-align: center;
+    /* line-height: 200%; */
+    font-weight: 500;
+    width: 70%;
 }
 
 .webflowwide {
@@ -937,6 +1022,13 @@ a.icon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.needplusicontwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 .needrightarrowicon {
@@ -1155,4 +1247,144 @@ a.icon {
 
 .copyrightwebflowspecial {
     color: #5BB5A2;
+}
+
+.indexcenterthreeimgline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.indexcenterthreeimgline img {
+    width: 243px;
+}
+
+.transactionaccount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.transactionaccount img {
+    width: 320px;
+    height: 620px;
+}
+
+.allninehudred {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.statisticscards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.easytransactions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.statisticscards img {
+    width: 50%;
+}
+
+.easytransactions img {
+    width: 32.8%;
+}
+
+.accountstarted {
+    display: flex;
+    flex-direction: column;
+}
+
+.basicstarted {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.basicicon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    align-items: center;
+}
+
+.basicicon img {
+    width: 100%;
+}
+
+.basiciconspan {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.basicicon p {
+    color: darkgray;
+    margin: 0;
+    text-align: center;
+    line-height: 160%;
+    width: 70%;
+}
+
+.basicpopular {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.basicpopular p {
+    background: #E8F2EE;
+    color: #5BB5A2;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.basicpopular span {
+    margin: 0;
+    font-weight: 500;
+}
+
+.basicicongetstarted {
+    margin-top: 15px;
+    width: 100%;
+    height: 39px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-radius: 6px;
+    background: #5BB5A2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.dollarmonth {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.permonth {
+    height: 33px;
+    text-align: center;
+    padding-top: 10px;
 }

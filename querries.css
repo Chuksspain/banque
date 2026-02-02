@@ -138,13 +138,37 @@
     .accountcards,
     .iconsales,
     .needplusicon,
+    .needplusicontwo,
     .howplusicon,
-    .blogimagetechnology {
+    .blogimagetechnology,
+    .statisticscards,
+    .easytransactions,
+    .basicstarted {
         display: flex;
         flex-direction: column;
         width: 358px;
         gap: 20px;
         justify-content: center;
+    }
+
+
+    .transactionaccount {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        gap: 20px;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .indexcenterthreeimgline {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .indexcenterthreeimgline img {
+        width: 60px;
     }
 
     .onesevenhundred {
@@ -179,8 +203,16 @@
     .loremicon p,
     .notificationavailable p,
     .notificationicon p,
-    .accountcards p {
+    .accountcards p,
+    .notificationiconthree,
+    .basicicon,
+    .notificationiconfive {
         width: 358px;
+    }
+
+    .notificationiconfour {
+        width: 358px;
+        padding: 30px 0;
     }
 
     .iconninehundredtwo p {
@@ -198,7 +230,10 @@
     .laptopplus img,
     .accountcards img,
     .onesevenhundred img,
-    .blogimagetechnology img {
+    .blogimagetechnology img,
+    .transactionaccount img,
+    .statisticscards img,
+    .easytransactions img {
         display: flex;
         flex-direction: column;
         align-self: center;
