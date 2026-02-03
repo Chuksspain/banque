@@ -226,14 +226,23 @@
         width: 100%;
     }
 
+    .transactionaccount img {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 70%;
+        height: 70vh;
+    }
+
     .oneaccount img,
     .laptopplus img,
     .accountcards img,
     .onesevenhundred img,
     .blogimagetechnology img,
-    .transactionaccount img,
     .statisticscards img,
-    .easytransactions img {
+    .easytransactions img,
+    .basicicon img,
+    .basicicongetstarted {
         display: flex;
         flex-direction: column;
         align-self: center;
