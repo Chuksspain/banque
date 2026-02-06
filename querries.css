@@ -151,8 +151,47 @@
         justify-content: center;
     }
 
+    .stillus {
+        display: flex;
+        flex-direction: column;
+        width: 358px;
+        gap: 20px;
+        justify-content: center;
+        border-radius: 0;
+    }
 
-    .transactionaccount {
+    .stillhelp {
+        align-self: start;
+    }
+
+    .stillhelp p {
+        width: fit-content;
+    }
+
+    .stillhelp span {
+        width: fit-content;
+    }
+
+    .phoneiconus {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .basicstartedtwo,
+    .doplusicontwo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .transactionaccount,
+    .comparebanquee {
         display: flex;
         flex-direction: column;
         width: 358px;
@@ -210,6 +249,11 @@
         width: 358px;
     }
 
+    .numberhotline p,
+    .numberhotline span {
+        width: 304px;
+    }
+
     .notificationiconfour {
         width: 358px;
         padding: 30px 0;
@@ -242,7 +286,8 @@
     .statisticscards img,
     .easytransactions img,
     .basicicon img,
-    .basicicongetstarted {
+    .basicicongetstarted,
+    .comparebanquee img {
         display: flex;
         flex-direction: column;
         align-self: center;

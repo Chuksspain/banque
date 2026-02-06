@@ -167,6 +167,25 @@ a.icon {
     color: #FFFFFF;
 }
 
+.logaccopenaccounttwo {
+    background: black;
+    height: 39;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
 .bankingvisa {
     display: flex;
     flex-direction: row;
@@ -1100,9 +1119,31 @@ a.icon {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
+}
+
+.phoneiconhotlinetwo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 
 .numberhotline {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: center;
+}
+
+.numberhotlinetwo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: center;
+}
+
+.stillhelp {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -1114,10 +1155,36 @@ a.icon {
     width: 200%;
 }
 
+.numberhotlinetwo span {
+    font-size: 14px;
+    width: 200%;
+    color: #FFFFFF;
+}
+
+.stillhelp span {
+    font-size: 18px;
+    width: 200%;
+    color: #FFFFFF;
+}
+
 .numberhotline p {
     font-size: 14px;
     width: 200%;
     color: darkgray;
+    margin: 0;
+}
+
+.numberhotlinetwo p {
+    font-size: 11px;
+    width: 200%;
+    color: rgb(241, 237, 237);
+    margin: 0;
+}
+
+.stillhelp p {
+    font-size: 13px;
+    width: 200%;
+    color: rgb(241, 237, 237);
     margin: 0;
 }
 
@@ -1127,12 +1194,35 @@ a.icon {
     width: 50%;
 }
 
+.howplusicontwo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
 .doplusicon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px solid rgb(217, 217, 217);
     padding: 20px 0 20px 0;
+}
+
+.doplusicontwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    padding: 20px 0 20px 0;
+    align-items: center;
+}
+
+.doplustick {
+    margin: 0 60px;
+}
+
+.doplusspan {
+    padding: 0 40px;
 }
 
 .doplusiconleast {
@@ -1458,4 +1548,20 @@ a.icon {
 
 .comparebanquee img {
     width: 45%;
+}
+
+.stillus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #5BB5A2;
+    border-radius: 10px;
+}
+
+.phoneiconus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
 }
